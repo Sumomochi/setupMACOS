@@ -39,7 +39,7 @@ fi
 killAll Finder
 
 # Change desktop background
-#osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/mbui/Downloads/plants.jpg"'
+#osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/${loggedInUser}/Downloads/plants.jpg"'
 
 # Set volume to 0
 osascript -e 'set volume output volume 0'
